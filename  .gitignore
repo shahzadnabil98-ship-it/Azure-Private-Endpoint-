@@ -1,0 +1,14 @@
+# Lokale Terraform-Verzeichnisse blockieren
+.terraform/
+.terraform.lock.hcl
+
+# Terraform Status-Dateien (enthalten Passwörter im Klartext!)
+*.tfstate
+*.tfstate.*
+
+# Variablen-Dateien, falls du mal Passwörter auslagerst
+*.tfvars
+*.tfvars.json
+
+# Betriebssystem-Dateien vom Mac
+.DS_Store
